@@ -1,0 +1,51 @@
+export const USER_ROLES = {
+  ADMIN: "ADMIN",
+  WARDEN: "WARDEN",
+  STAFF: "STAFF",
+  STUDENT: "STUDENT",
+} as const;
+
+export const STUDENT_STATUS = {
+  ACTIVE: "ACTIVE",
+  INACTIVE: "INACTIVE",
+  LEFT_HOSTEL: "LEFT_HOSTEL",
+  EXPELLED: "EXPELLED",
+  GRADUATED: "GRADUATED",
+} as const;
+
+export const PAYMENT_STATUS = {
+  PAID: "PAID",
+  PARTIALLY_PAID: "PARTIALLY_PAID",
+  PENDING: "PENDING",
+  OVERDUE: "OVERDUE",
+  REFUNDED: "REFUNDED",
+} as const;
+
+export const PAYMENT_METHODS = {
+  UPI: "UPI",
+  CASH: "CASH",
+  BANK_TRANSFER: "BANK_TRANSFER",
+  CARD: "CARD",
+  OTHER: "OTHER",
+} as const;
+
+export const ANNOUNCEMENT_PRIORITY = {
+  LOW: "LOW",
+  NORMAL: "NORMAL",
+  HIGH: "HIGH",
+  URGENT: "URGENT",
+} as const;
+
+export const ANNOUNCEMENT_TARGETS = {
+  ALL_STUDENTS: "ALL_STUDENTS",
+  SELECTED_STUDENTS: "SELECTED_STUDENTS",
+  INDIVIDUAL_STUDENT: "INDIVIDUAL_STUDENT",
+} as const;
+
+export const AUDIT_LOG_STATUS = {
+  SUCCESS: "SUCCESS",
+  WARNING: "WARNING",
+  FAILED: "FAILED",
+} as const;
+
+export const DEFAULT_PAGE_SIZE = 10;
